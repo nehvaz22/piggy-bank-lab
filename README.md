@@ -4,11 +4,11 @@ Write the script.js file to bring this piggy bank to life!
 
 1. Whenever a user clicks one of the 4 buttons representing a deposited coin, the span element with the id "balance-amount" should have the appropriate value added to it, always rounded to 2 decimal places.
 
-3. The ul element with the class "history" should have a new li element added for each button click as well, containing the first letter of the deposited coin (P, N, D, Q). This will show up as a grey box.
+2. The ul element with the class "history" should have a new li element added for each button click as well, containing the first letter of the deposited coin (P, N, D, Q). This will show up as a grey box.
 
-4. Each li element in the history should be removed when clicked.
+3. Each li element in the history should be removed when clicked. This ALSO removes the appropriate amount from the balance.
 
-5. Whenever a user clicks the balance, they should be prompted to enter a new balance. Only update the balance if the user hits OK (not Cancel), and if the entered value converts successfully to a Number. Also, round to 2 decimal places.
+4. Whenever a user clicks the balance, they should be prompted to enter a new balance. Only update the balance if the user hits OK (not Cancel), and if the entered value converts successfully to a Number. Also, round to 2 decimal places. Clear the history of all elements when the balance is reset in this way.
 
 6. Use window.localStorage to automatically save and load the balance. This way, the 
 value is retained even if the user closes the webpage.
